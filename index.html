@@ -1,97 +1,43 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-<head>
-    <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Iviner Cássio - Dev Fullstack</title>
-    <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">    
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-    <div>
-        <h1 align="center">
-            <svg height="35" width="800">
-                <defs>
-                    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
-                        <stop offset="0%" style="stop-color:rgb(143, 188, 143);stop-opacity:1" />
-                        <stop offset="100%" style="stop-color:rgb(173, 255, 47);stop-opacity:1" />
-                    </linearGradient>
-                </defs>
-                <text fill="url(#grad1)" font-size="40" font-family="Courier New" x="75" y="30">Iviner Cássio de Matos Santos</text>
-                Sorry, your browser does not support inline SVG.
-            </svg>
-        </h1>
-        <h2 align="center">Desenvolvedor Fullstack Júnior 💻</h2>
-        <img align="right" height="200em" src="images/animation.gif"/>
-    </div>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Iviner Cássio - Developer</title>
+        <link rel="shortcut icon" href="images/favicon.png" type="image/x-icon">
 
-    <section>
-        <h3>Um pouco sobre mim</h3>
-        <p align="justify">
-            O meu primeiro contato com a programação foi durante o ensino médio técnico, no ano de 2020. 
-            Hoje, após mais de três anos de códigos, erros e aprendizagens, fico feliz por ter encontrado esta 
-            área que desperta meu interesse e motivação em sempre buscar progredir com minhas habilidades. 
-        </p>
-    </section>
+        <link rel="stylesheet" href="style.css">
+        <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" 
+            integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    </head>
 
-    <section>
-        <h3 class="inline">Contato</h3>
-        <div class="inline" id="div-contato">
-            <a href="mailto:ivinercassio@gmail.com" target="_blank">
-                <img height="30em" src="https://img.shields.io/badge/Gmail-D14836?style=for-the-badge&logo=gmail&logoColor=white" alt="Link para o meu gmail"/>
-            </a>
-            <a href="https://www.linkedin.com/in/iviner-cássio-106b6526b/" target="_blank">
-                <img height="30em" src="https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white" alt="Link para o meu linkedin"/>
-            </a>
-            <a href="https://t.me/Iviner" target="_blank">
-                <img height="30em" src="https://img.shields.io/badge/Telegram-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white" alt="Link para meu telegram"/>
-            </a>
-            <a href="https://api.whatsapp.com/send?phone=5531994379481" target="_blank">
-                <img height="30em" src="https://img.shields.io/badge/WhatsApp-25D366?style=for-the-badge&logo=whatsapp&logoColor=white" alt="Link para o meu whatsapp"/>
-            </a>
-            <a href="https://github.com/ivinercassio" target="_blank">
-                <img height="30em" src="https://img.shields.io/badge/GitHub-100000?style=for-the-badge&logo=github&logoColor=white" alt="Link para o meu GitHub"/>
-            </a>
+    <body class="container mt-5 text-white">
+
+        <div id="box">
+            <h1>Opa, Iviner Cássio aqui!</h1>
+            <h6 class="opacity-25">Desenvolvedor Fullstack Jr</h6>
+            <div>
+                <p align="justify">O meu primeiro contato com a programação foi durante o ensino médio técnico, no ano de 2020. Hoje, 
+                    após mais de quatro anos de códigos, erros e aprendizagens, fico feliz por ter encontrado esta área que 
+                    desperta meu interesse e motivação em sempre buscar progredir com minhas habilidades.</p>
+                <p align="justify">Atualmente, sou técnico em Desenvolvimento de Sistemas pelo <a href="https://www.timoteo.cefetmg.br/" 
+                    alt="Site da instituição" target="_blank">CEFET-MG campus Timóteo</a>, e estou no 2° período do curso de 
+                    Engenharia de Computação, na mesma instituição.</p>
+            </div>
+
+            <img src="images/profile.png" class="img-thumbnail rounded-circle" alt="Photo of profile">
+
+            <button type="button" class="btn btn-primary" onclick="moreInformation()"><i class="bi bi-chevron-double-down"></i> Mais Informações</button>
+        
+            <section></section>
+
         </div>
-    </section>
 
-    <section>
-        <h3 id="skills">Skills que desenvolvo</h3>
-        <table width="100%">
-            <tr>
-                <td>
-                    <img height="50em" title="PHP" alt="PHP" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" /><br>
-                    <img height="50em" title="Java" alt="Java" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/java/java-original-wordmark.svg" />
-                </td>
-                <td>
-                    <img height="50em" title="Python" alt="Python" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/python/python-original-wordmark.svg" /><br>
-                    <img height="50em" title="JavaScript" alt="JavaScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/javascript/javascript-plain.svg" />
-                </td>
-                <td>
-                    <img height="50em" title="TypeScript" alt="TypeScript" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/typescript/typescript-plain.svg" /><br>
-                    <img height="50em" title="MySQL" alt="MySQL" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original-wordmark.svg" />
-                </td>
-                <td>
-                    <img height="50em" title="HTLML5" alt="HTLML5" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/html5/html5-original-wordmark.svg" /><br>
-                    <img height="50em" title="CSS3" alt="CSS3" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/css3/css3-original-wordmark.svg" />
-                </td>
-                <td>
-                    <img height="50em" title="AngularJS" alt="AngularJS" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/angularjs/angularjs-original.svg" /><br>
-                    <img height="50em" title="Spring Boot" alt="Spring Boot" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/spring/spring-original.svg" />   
-                </td>
-                <td>
-                    <img height="50em" title="Ionic" alt="Ionic" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/ionic/ionic-original.svg" /><br>
-                    <img height="50em" title="Laravel" alt="Laravel" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-plain-wordmark.svg" />
-                </td>
-            </tr>
-        </table>
-    </section>
+    </body>
 
-    <h3>Formação</h3>
-    <p align="justify">
-        Atualmente, sou técnico em Desenvolvimento de Sistemas pelo <a href="https://www.timoteo.cefetmg.br/" alt="Site da instituição" target="_blank">CEFET-MG campus Timóteo</a>, e estou no 2° período do curso de Engenharia de Computação,
-        na mesma instituição.
-    </p>
-    
-</body>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js" 
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" crossorigin="anonymous">
+    </script>
+    <script src="script.js"></script>
 </html>

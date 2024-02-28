@@ -1,43 +1,62 @@
+* {
+    font-family: cursive;
+}
+
 body {
-    margin-top: 2em;    
-    background-color: #101010;
-    margin-inline: 8em;
     color: white;
-    font-family: 'Courier New', Courier, monospace;
+    background-image: url(images/background.png);
 }
 
-section {
-    border-bottom: solid 1px rgba(143, 188, 143, 0.5);
-}
-
-h1, h3 {
-    color: rgb(143, 188, 143);
-}
-
-#name, #skills {
-    margin-bottom: 0%;
-    clear: both;
-}
-
-.inline{
-    display: inline-block;
-}
-
-#div-contato {
-    margin-top: 1.5em;
-    margin-left: 1em;
+p::selection, h1::selection {
+    background-color: orange;
 }
 
 a:link {
-    color:rgb(143, 188, 143);
+    color: yellowgreen;
     text-decoration: none;
 }
 
 a:visited {
-    color: rgb(173, 255, 47);
+    color: orange;
 }
 
 a:hover {
-    color: white;
+    color: orange;
 }
 
+#box {
+    margin-top: 2em;
+    margin-bottom: 5em;
+    width: 100%;
+    float: inline-start;
+    background-color: black;
+    padding: 2em;
+    font-size: large;
+}
+
+#box div{
+    margin-top: 1em;
+    width: 70%;
+    float: inline-start;
+}
+
+img {
+    width: 25%;
+    height: auto;
+    float: left;
+    margin-left: 2em;
+}
+
+#box section div {
+    width: 100%;
+}
+
+a img {
+    width: 20%;
+    height: auto;
+    margin-bottom: 1em;
+}
+
+#gmail, #git {
+    height: 3em;
+}
