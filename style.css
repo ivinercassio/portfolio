@@ -1,10 +1,13 @@
 * {
-    font-family: cursive;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 body {
     color: white;
     background-image: url(images/background.png);
+    background-repeat: no-repeat;
+    background-size: auto;
+    background-position: center;
 }
 
 p::selection, h1::selection {
