@@ -19,6 +19,4 @@ function moreInformation() {
     divEducation.insertAdjacentHTML("beforeend", "<p>No terceiro ano, estuda-se sobre frameworks, API's, introdução ao desenvolvimento mobile e redes de computadores. <br><i class='bi bi-hash'></i>Tecnologias trabalhadas: SpringBoot, AngularJS, Ionic, TypeScript, Laravel, etc</p>");
     divEducation.insertAdjacentElement("afterend", document.createElement("div"));
 
-    let divCourse = section.lastElementChild;
-    divCourse.insertAdjacentHTML("afterbegin", "<p>Atualmente, estou cursando o 3° período de Engenharia da Computação no CEFET-MG </p>");
 }
