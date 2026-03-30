@@ -105,6 +105,31 @@ header {
     background: rgba(30, 41, 59, 0.9);
 }
 
+.tags {
+    display: flex;
+    flex-wrap: wrap; 
+    gap: 0.5rem;    
+    margin-top: 1.25rem;
+}
+
+.tag {
+    background: rgba(255, 255, 255, 0.05); 
+    color: var(--text-primary);
+    font-size: 0.85rem;
+    padding: 0.4em 1em; 
+    border-radius: 2rem; /* Formato de pílula total */
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: blur(4px);
+    transition: all 0.2s ease;
+    white-space: nowrap; 
+}
+
+.tag:hover {
+    border-color: var(--accent-color);
+    background: rgba(56, 189, 248, 0.1); /* Um leve brilho no hover */
+    transform: scale(1.05);
+}
+
 /* Footer / Links de Contato */
 .social-links {
     display: flex;
